@@ -1,5 +1,7 @@
+// @import '../../../styles.scss';
+$primary-color: rgb(70, 192, 4);
 .active-link {
     font-weight: bold;
-    color: green;
+    color: $primary-color;
     text-decoration: underline;
 }
