@@ -1,0 +1,6 @@
+$primary-color: rgb(0, 214, 100);
+.active-link {
+    font-weight: bold;
+    color: $primary-color;
+    text-decoration: underline;
+}

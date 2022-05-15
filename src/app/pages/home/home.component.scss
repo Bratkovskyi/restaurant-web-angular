@@ -1,0 +1,60 @@
+@import "../../root.scss";
+.banner {
+  flex: 1 1 auto;
+  background-image: url("../../../assets/img/bannerimg.jpg");
+  // height: 745px;
+  height: 881px;
+  background-position: center top;
+  background-size: cover;
+  .content {
+    top: 20%;
+    left: 12%;
+    position: absolute;
+    h1 {
+      color: #fff;
+      font-size: 55px;
+      font-weight: bold;
+    }
+    a {
+      text-decoration: none;
+      font-weight: bold;
+      background-color: #fff;
+      color: $primary-color;
+      padding: 10px 20px;
+      transition: 1s;
+      border-radius: 5px;
+    }
+    a:hover {
+      background-color: $primary-color;
+      color: #fff;
+      i {
+        transition: 1s;
+        color: black;
+      }
+    }
+  }
+}
+
+.stepBox {
+  background-color: #000;
+  padding: 20px 20px;
+  border-radius: 5px;
+  text-align: center;
+  h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: $primary-color;
+  }
+  p {
+    color: #fff;
+    font-style: 20px;
+    font-style: italic;
+  }
+}
+
+span {
+  color: $primary-color;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+}
