@@ -1,0 +1,19 @@
+.wrapper {
+  height: 100%;
+  background-position: center top -125px;
+  background-size: cover;
+  background-image: url(../../../assets/img/404.jpg);
+  div {
+    padding-top: 140px;
+  }
+  h1 {
+    color: #000;
+    font-style: italic;
+    font-size: bold;
+  }
+  p {
+    font-style: italic;
+    color: #000;
+    font-size: bold;
+  }
+}

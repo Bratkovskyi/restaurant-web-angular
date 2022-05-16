@@ -2,7 +2,6 @@
 .banner {
   flex: 1 1 auto;
   background-image: url("../../../assets/img/bannerimg.jpg");
-  // height: 745px;
   height: 881px;
   background-position: center top;
   background-size: cover;
@@ -55,8 +54,6 @@
 span {
   color: $primary-color;
   font-weight: bold;
-  font-style: italic;
-  text-decoration: underline;
 }
 
 .foodbox {
