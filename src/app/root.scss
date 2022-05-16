@@ -1,6 +1,21 @@
 $primary-color: rgb(0, 214, 100);
 .active-link {
-    font-weight: bold;
-    color: $primary-color;
-    text-decoration: underline;
+  font-weight: bold;
+  color: $primary-color;
+  text-decoration: underline;
+}
+.myBtn {
+  align-self: end;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: black;
+  color: $primary-color;
+  cursor: pointer;
+  transition: 0.8s;
+  &:hover {
+    background-color: $primary-color;
+    color: #000;
+  }
 }
